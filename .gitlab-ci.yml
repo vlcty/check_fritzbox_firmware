@@ -1,0 +1,15 @@
+---
+stages:
+    - build
+
+build:
+    stage: build
+    image: golang
+    tags:
+        - docker
+    script:
+        - go version
+        # Run the tests
+        - go test
+        # Build the binary
+        - go build check_fritzbox_firmware.go
