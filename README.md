@@ -97,6 +97,8 @@ Ich habe das Programm gegen zwei Modelle getestet:
 
 * Fritz!Box 7490 (VDSL)
 * Fritz!Box 7590 (VDSL)
+* Fritz!Box 7582 (G.Fast)
+* Fritz!Box 7583 (G.Fast)
 
 ## Referenzen
 
