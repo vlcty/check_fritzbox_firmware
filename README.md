@@ -2,6 +2,13 @@
 
 Checkt eine Fritz!Box via TR-064, ob ein Firmwareupdate aussteht.
 
+## Kompilieren
+
+Geschrieben in go. Also muss go installiert werden. In der Regel über jeden Paketmanager verfügbar.
+
+Kompilieren für das aktuell genutze OS: `go build -o check_fritzbox_firmware check_fritzbox_firmware.go`   
+Kompilieren für Linux: `GOOS=linux GOARCH=amd64 go build -o check_fritzbox_firmware check_fritzbox_firmware.go`
+
 ## Beispielaufruf:
 
 Das Programm nimmt nur einen Parameter: Die IP zur Fritz!Box. Diese gibt man über den Parameter `--ip` mit an:
